@@ -6,6 +6,7 @@ permalink: /
 
 
 # The Government of Len is here to ensure your wellbeing and safety. 
+
 ### Important Information: 
 Border Services Len (BSL) have reversed the permission to entry ban. The new Entry Permit program is now in effect. More information about the Entry Permit program is available on the BSL website.
 
