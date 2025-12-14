@@ -1,0 +1,74 @@
+/* Simple, maintainable stylesheet with solid colors + glass effect */
+:root{
+  /* Color system */
+  --bg: #071428;            /* page background */
+  --surface: rgba(255,255,255,0.04); /* card surface (glassy) */
+  --surface-border: rgba(255,255,255,0.06);
+  --text: #e6eef8;
+  --muted: #9aa4b2;
+  --accent: #38bdf8;
+
+  /* Layout */
+  --radius: 12px;
+  --container-width: 860px;
+
+  /* Spacing */
+  --gap: 18px;
+}
+
+/* Base */
+*, *::before, *::after { box-sizing: border-box }
+html, body { height: 100%; margin: 0 }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container { max-width: var(--container-width); margin: 0 auto; padding: 28px }
+
+/* Header */
+.site-header { padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,0.03) }
+.brand { font-weight: 700; color: var(--accent); text-decoration: none; font-size: 1.125rem }
+.main-nav { float: right }
+.main-nav a { color: var(--muted); text-decoration: none; margin-left: 18px; padding: 6px 8px; border-radius: 8px }
+.main-nav a:hover { color: var(--text); background: rgba(255,255,255,0.02) }
+
+/* Reusable card styles */
+.card, .profile, .glass {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+.profile { display: flex; gap: var(--gap); align-items: center }
+.avatar { width: 84px; height: 84px; border-radius: 12px; background: var(--accent); flex: 0 0 84px }
+
+h1, h2, h3 { color: var(--text); margin: 0 0 8px 0 }
+p { margin: 0 0 12px 0; color: var(--muted) }
+a { color: var(--accent) }
+
+.site-footer { border-top: 1px solid rgba(255,255,255,0.03); padding: 20px 0; margin-top: 36px; color: var(--muted); font-size: 0.95rem }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .main-nav { float: none; margin-top: 12px }
+  .profile { flex-direction: column; align-items: flex-start }
+  .avatar { width: 72px; height: 72px }
+  .container { padding: 18px }
+}
+
+/* Optional glassy blur on supporting browsers */
+@supports ((-webkit-backdrop-filter: blur(6px)) or (backdrop-filter: blur(6px))) {
+  .card, .profile, .glass {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background: rgba(255,255,255,0.03);
+  }
+}
+
+/* Utility */
+.muted { color: var(--muted) }
+.center { text-align: center }
