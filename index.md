@@ -5,7 +5,7 @@ title: Home
 
 <div class="card profile">
   <div>
-    <div class="avatar" aria-hidden="true"></div>
+    <div class="avatar" aria-hidden="false"></div>
   </div>
   <div>
     <h1>Welcome</h1>
