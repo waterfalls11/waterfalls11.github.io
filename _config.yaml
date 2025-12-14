@@ -1,2 +1,3 @@
 title: Government of Len
 theme: minima
+plugins: [jekyll-feed]
