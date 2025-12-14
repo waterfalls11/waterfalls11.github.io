@@ -2,13 +2,19 @@
 layout: home
 title: Welcome
 ---
+<header>
+  <h1>🇦🇷 The Sovereign State of Something</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/constitution.html">Constitution</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+
 
 ## Welcome to the Government of Len webpage!
 
-We are a totally legit micronation with:
-- A flag
-- Laws (mhm)
-- A website (definitely)
+This is a **WIP**
 
-This website is official and serious.
 <link rel="stylesheet" href="/assets/style.css">
