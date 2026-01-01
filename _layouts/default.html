@@ -8,8 +8,6 @@
 </head>
 <body>
 
-  <div id="rss-banner-container"></div>
-
   <header class="site-header">
     <div class="container">
       <a class="brand" href="{{ '/' | relative_url }}">{{ site.title | default: "Government of Len" }}</a>
@@ -28,24 +26,6 @@
   <footer class="site-footer">
     <div class="container">© 2026 Government of Len</div>
   </footer>
-
-  <script>
-  fetch('/feed.xml')
-    .then(res => res.text())
-    .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
-    .then(data => {
-      const latest = data.querySelector("item title").textContent;
-      const link = data.querySelector("item link").textContent;
-      const container = document.getElementById("rss-banner-container");
-      container.innerHTML = `
-        <div class="rss-banner">
-          <span class="icon">❗</span>
-          <a href="${link}" style="text-decoration:none; color: inherit;">${latest}</a>
-        </div>
-      `;
-    })
-    .catch(err => console.log('RSS fetch failed:', err));
-  </script>
   
 </body>
 </html>
