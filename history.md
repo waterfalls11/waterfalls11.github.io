@@ -1,5 +1,5 @@
 ---
 layout: history
-title: Home
-permalink: /
+title: Ministry of History
+permalink: /history
 ---
