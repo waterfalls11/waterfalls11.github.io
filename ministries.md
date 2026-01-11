@@ -5,4 +5,4 @@ permalink: /ministries/
 ---
 # Ministries
 Visit each ministry's site:
-(govlen.gay/history/)[Ministry of History]
+[Ministry of History](https://govlen.gay/history/)
