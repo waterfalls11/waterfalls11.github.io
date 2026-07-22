@@ -5,27 +5,8 @@ permalink: /emergencies-and-bulletins/
 ---
 # Emergency Messages
 
-LEAS ACT | TORNADO AWARE
+X
 
-ENRL has issued a TORNADO AWARE for the following provinces and territories:
-Oakley and Pibble, and Snowball.
-
-Rotation in a storm in this area exists. A tornado is not on the ground, but could be at any moment. You do not need to take shelter now, but if a tornado warning is issued, you should take action. This is a precationary message.
-
-LEAS ALERT | TORNADO AWARE
-
-ENRL has issued a TORNADO AWARE EHA for the following provinces and territories:
-Grizzly, Riley, Jojo, Oakley, and Pibble, Snowball.
-
-Any storm which forms could produce a tornado in the current environment.
-
-A tornado aware means that the conditions for tornadoes exists, but not necessarily that a tornado is on the ground.
-
-Take steps to prevent hazard to life. Prepare to, at short notice, go to a safe location. Charge phones, and have multiple ways to receive warnings. 
-
-Check media.
-
-Government of Len | ENRL
 # Bulletins 
 
 LEAS Capabilities are Limited:
