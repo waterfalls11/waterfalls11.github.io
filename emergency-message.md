@@ -5,7 +5,7 @@ permalink: /emergencies-and-bulletins/
 ---
 # Emergency Messages
 
-X
+No alerts are active at this time.
 
 # Bulletins 
 
