@@ -5,9 +5,31 @@ permalink: /emergencies-and-bulletins/
 ---
 # Emergency Messages
 
-No alerts are active at this time.
+LEAS | TORNADO ALERT
+
+LNRL JOJO has issued a TORNADO ALERT for the following provinces and territories:
+JOJO, GRIZZLY, RILEY, SNOWBALL, O&P
+
+This means that storms are approaching which are capable of tornadoes and strong winds. Take actions to prepare for the arrival of severe weather, and be prepared to get to your safe place.
+
+There is no immediate threat, but one may be present soon.
+
+Government of Len
 
 # Bulletins 
+
+LEAS | TORNADO AWARE
+
+LNRL JOJO has issued a TORNADO AWARE for the following provinces and territories:
+JOJO, GRIZZLY, RILEY, SNOWBALL, O&P
+
+This means that the conditions for a tornado exist, and a tornado could form from storms which arrive. 
+
+There is no immediate threat, but one may be present soon.
+
+Government of Len
+
+---
 
 LEAS Capabilities are Limited:
 
