@@ -14,6 +14,8 @@ This means that storms are approaching which are capable of tornadoes and strong
 
 There is no immediate threat, but one may be present soon.
 
+Source: indicated by radar
+
 Government of Len
 
 # Bulletins 
