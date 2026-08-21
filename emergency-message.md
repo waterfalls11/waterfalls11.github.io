@@ -7,14 +7,7 @@ permalink: /emergencies-and-bulletins/
 
 LEAS | TORNADO ALERT
 
-LNRL JOJO has issued a TORNADO ALERT for the following provinces and territories:
-JOJO, GRIZZLY, RILEY, SNOWBALL, O&P
-
-This means that storms are approaching which are capable of tornadoes and strong winds. Take actions to prepare for the arrival of severe weather, and be prepared to get to your safe place.
-
-There is no immediate threat, but one may be present soon.
-
-Source: Indicated by radar
+The Tornado Alert has been canceled. The storm was weakened and is no longer capable of producing a tornado.
 
 Government of Len
 
